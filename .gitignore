@@ -1,0 +1,43 @@
+# Dependencies and Bun artifacts
+node_modules/
+.bun/
+
+# Build and coverage output
+.data/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.env.setup-*.tmp
+
+# Runtime data and credentials
+data/
+/data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+auth.json
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker local overrides
+docker-compose.override.yml
+compose.override.yml

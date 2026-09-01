@@ -1,0 +1,22 @@
+{
+  "name": "minishop-helper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "LOG_FORMAT=pretty bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "setup": "bun src/setup/cli.ts",
+    "logs": "bun src/log-viewer.ts",
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit",
+    "check": "bun run test && bun run typecheck"
+  },
+  "dependencies": {
+    "grammy": "^1.45.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.4"
+  }
+}
