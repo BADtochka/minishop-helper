@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> Репозиторий перенесён в GitLab и больше не поддерживается на GitHub.
+>
+> Актуальная версия: https://gitlab.com/BADtochka/minishop-helper
+
 # minishop-helper
 
 Сервис, который получает Telegram updates через polling в локальной разработке или webhook в production и превращает сообщения в структурированные Issues в GitHub или GitLab.
